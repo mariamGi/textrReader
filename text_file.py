@@ -3,7 +3,7 @@ def text_list(text):
     with open(text, 'r') as reader:
         line = reader.readlines()[-1]
     line_list = line.split(",")
-    return line_list[:6]
+    return line_list[:5]
 
 
 print(text_list(text='sample2.txt'))
